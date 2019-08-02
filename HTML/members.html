@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--index.html-->
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+    </head>
+    <style>
+		.wrapper{
+			display:grid;
+			grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-auto-rows:minmax(150px, auto);
+			grid-gap:1em;
+			width: 100%;
+		}
+		
+		.wrapper > div{
+			background: #333;
+			padding: 1em;
+		}
+		.wrapper > div:nth-child(1){
+			background: #555;
+		}
+		
+		.box1{
+			grid-column:1/10;
+		}
+		.box2{
+			grid-column:1/4;
+		}
+		.box3{
+			grid-column:4/7;
+		}
+		.box4{
+			grid-column:7/10;
+		}
+		.box5{
+			grid-column:2/5;
+			min-height: 200px;
+		}
+		.box6{
+			grid-column:6/9;
+			min-height: 200px;
+		}
+		.box7{
+			grid-column:1/4;
+		}
+		.box8{
+			grid-column:4/7;
+		}
+		.box9{
+			grid-column:7/10;
+		}
+		.box10{
+			grid-column:1/10;
+			min-height: 175px;
+			color: white;
+		}
+		
+		.box11{
+			
+		}
+		
+		.box12{
+			
+		}
+		
+		.box13{
+			
+		}
+		
+		.bottomwrapper{
+			display:grid;
+			grid-template-columns:1fr 1fr 1fr;
+			grid-auto-rows:minmax(150px, auto);
+			grid-gap:1em;
+			width: 100%;
+		}
+		
+		a:link {
+			color: white; 
+			background-color: transparent; 
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: white;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #FF5500;
+			background-color: transparent;
+		}
+
+		a:active {
+			color: white;
+			background-color: transparent;
+		}
+		
+    </style>
+    <body>
+        <main>
+            <header>
+                <img src="Zastik2.jpeg" width="100" height="40" alt="Zastik Logo">
+                    <nav>
+						<ul>
+							<a href="index.html"><li>Home</li></a>
+							<div class="dropdown">
+								<button class="dropbtn">Shop
+									<i class="fa fa-caret-down"></i>
+								</button>
+								<div class="dropdown-content">
+								  <a href="shop.html">Shoes</a>
+								  <a href="shop.html">Clothing</a>
+								  <a href="shop.html">Accessories</a>
+								</div>
+							 </div> 
+							 <div class="dropdown">
+								<button class="dropbtn">By Size
+									<i class="fa fa-caret-down"></i>
+								</button>
+								<div class="dropdown-content">
+								  <a href="size.html">4</a>
+								  <a href="size.html">4.5</a>
+								  <a href="size.html">5</a>
+								  <a href="size.html">5.5</a>
+								  <a href="size.html">6</a>
+								  <a href="size.html">6.5</a>
+								  <a href="size.html">7</a>
+								  <a href="size.html">7.5</a>
+								  <a href="size.html">8</a>
+								  <a href="size.html">8.5</a>
+								  <a href="size.html">9</a>
+								  <a href="size.html">9.5</a>
+								  <a href="size.html">10</a>
+								</div>
+							 </div> 
+							<a href="ebay.html"><li>Ebay</li></a>
+							<a href="contact.html"><li>Contact</li></a>
+							<a href="faq.html"><li>FAQ</li></a>
+							<a href="members.html" class="active"><li>Members Only</li></a>
+						</ul>
+					</nav>
+            </header>
+            <center>
+			<div class="wrapper">
+				<div class="box box1">
+					<img src="sale1.jpeg" width="100" height="40" alt="yeezyjordan">
+				</div>
+				<div class="box box2">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box3">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box4">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box5">
+					<img src="j.jpg" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box6">
+					<img src="jordan.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box7">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box8">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box9">
+					<img src="lebron.png" width="100" height="40" alt="lebron">
+				</div>
+				<div class="box box10">
+					<div class="bottomwrapper">
+						<div class="box box11">
+							<br />
+							<a href="shop.html">Search</a>
+							<br /><br />
+							<a href="contact.html">About Us</a>
+							<br /><br />
+							<a href="contact.html">Contact Us</a>
+							<br /><br />
+						</div>
+						<div class="box box12">
+							<br />
+							<a href="https://www.facebook.com/zastik.la/?__tn__=%2Cd%2CP-R&eid=ARAfNRBc_YfXqxqnDRjon9P1hf-bTLEqx2Yb9sMJrmApLdov19MCMzNfUSp6lcEmdst02pa5_evfbqsA" class="fa fa-facebook"> Facebook</a>
+							<br /><br />
+							<a href="https://www.pinterest.com/zastikskate/" class="fa fa-pinterest"> Pinterest</a>
+							<br /><br />
+							<a href="https://www.instagram.com/zastik.la/" class="fa fa-instagram"> Instagram</a>
+							<br /><br />
+						</div>
+						<div class="box box12">
+							<p> &copy; 2018, Zastik.LA</p>
+							<p> WE ACCEPT </p>
+							<img src="credit.png" width="80" height="30" alt="creditcards">
+						</div>
+					</div>
+				</div>
+			</div>
+		
+            <footer>
+				&copy; 2018 Zastik, LLC
+			</footer>
+        </main>
+    </body>
+</html>
